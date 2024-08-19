@@ -1,8 +1,8 @@
-# Predicting Employee Absenteeism Using Logistic Regression and Data Preprocessing Techniques
+# Predictive Analysis of Car Sales using Linear Regression with Sklearn
 
 ## Project Overview
 
-In this project, I developed a predictive model to analyze and understand the patterns of employee absenteeism using logistic regression. By processing and analyzing absenteeism data, I aimed to identify key factors contributing to employee absences and provide actionable insights to help reduce absenteeism rates.
+In this project, we aim to utilize linear regression, a fundamental machine learning algorithm, to predict car sales for a leading car manufacturing company. By leveraging the powerful Sklearn library, we will build a robust predictive model that analyzes historical sales data to forecast future sales trends.
 
 ## Table of Contents
 
@@ -18,17 +18,11 @@ In this project, I developed a predictive model to analyze and understand the pa
 
 ## Introduction
 
-Employee absenteeism is a critical issue for organizations as it can affect productivity and operational efficiency. The primary objective of this project is to predict absenteeism patterns and identify key factors contributing to employee absences using logistic regression.
+The primary goal of this project is to predict future car sales based on historical data. By using linear regression, we aim to understand the relationship between various factors and car sales, and use this relationship to make accurate predictions.
 
 ## Data Collection
 
-The dataset includes various features such as:
-
-- Employee demographics
-- Job role
-- Absenteeism reasons
-- Absenteeism duration
-- Other work-related factors
+The dataset used in this project includes historical sales data from a leading car manufacturing company. This data is crucial for training the linear regression model.
 
 ## Data Preprocessing
 
@@ -37,28 +31,29 @@ Data preprocessing steps include:
 - Handling missing values
 - Encoding categorical variables
 - Normalizing numerical features
-- Balancing the dataset
-- Splitting the data into training, validation, and test sets
+- Splitting the data into training and testing sets
 
 ## Model Building
 
-Using logistic regression, the predictive model was developed with the following steps:
+Using the Sklearn library, we implement a linear regression model. The key steps involved are:
 
 1. Importing necessary libraries
 2. Preparing the data for training
-3. Building the logistic regression model
-4. Training the model on the training data
-5. Evaluating the model on the validation data
-6. Fine-tuning the model
+3. Training the linear regression model
+4. Making predictions on the test data
 
 ## Evaluation
 
 The model's performance is evaluated using metrics such as:
 
-- Accuracy: 79%
+- Mean Absolute Error (MAE)
+- Mean Squared Error (MSE)
+- Root Mean Squared Error (RMSE)
+- R-squared (R²) score
 
-These metrics demonstrate the model's ability to accurately predict employee absenteeism patterns.
+These metrics help in understanding the accuracy and reliability of the model.
 
 ## Results
 
-The logistic regression model successfully identifies key factors contributing to employee absenteeism. These insights can help organizations develop strategies to reduce absenteeism rates, improve productivity, and enhance employee well-being.
+The predictive model successfully identifies trends and patterns in historical sales data, providing valuable insights for forecasting future car sales. The results can be used by the company to make informed business decisions.
+
